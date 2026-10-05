@@ -1,0 +1,1012 @@
+{
+  "name": "COCO household-object pilot (not robot data)",
+  "source": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "source_annotation_sha256": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+  "selection_seed": 2026,
+  "selection_rule": "18 random images with >=1 cup or bowl >=30px at 384px long side; exclude selected-category crowds; retain all selected-category annotations",
+  "categories": {
+    "44": "bottle",
+    "47": "cup",
+    "51": "bowl",
+    "62": "chair",
+    "84": "book"
+  },
+  "licenses": [
+    {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    {
+      "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+      "id": 5,
+      "name": "Attribution-ShareAlike License"
+    },
+    {
+      "url": "http://creativecommons.org/licenses/by-nd/2.0/",
+      "id": 6,
+      "name": "Attribution-NoDerivs License"
+    },
+    {
+      "url": "http://flickr.com/commons/usage/",
+      "id": 7,
+      "name": "No known copyright restrictions"
+    },
+    {
+      "url": "http://www.usa.gov/copyright.shtml",
+      "id": 8,
+      "name": "United States Government Work"
+    }
+  ],
+  "records": [
+    {
+      "id": "102707",
+      "file_name": "000000102707.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000102707.jpg",
+      "width": 612,
+      "height": 612,
+      "split": "dev",
+      "group": "102707",
+      "license_id": 3,
+      "flickr_url": "http://farm4.staticflickr.com/3747/8928536562_e8168d2752_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            323.77,
+            186.89,
+            155.3,
+            405.37
+          ],
+          "category_id": 44,
+          "annotation_id": 79735
+        },
+        {
+          "bbox": [
+            477.22,
+            361.7,
+            130.65,
+            243.42
+          ],
+          "category_id": 47,
+          "annotation_id": 676264
+        }
+      ]
+    },
+    {
+      "id": "260105",
+      "file_name": "000000260105.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000260105.jpg",
+      "width": 640,
+      "height": 480,
+      "split": "dev",
+      "group": "260105",
+      "license_id": 2,
+      "flickr_url": "http://farm3.staticflickr.com/2823/8817073004_ee080a8351_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            275.94,
+            0.0,
+            89.84,
+            59.04
+          ],
+          "category_id": 47,
+          "annotation_id": 676251
+        }
+      ]
+    },
+    {
+      "id": "402346",
+      "file_name": "000000402346.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000402346.jpg",
+      "width": 640,
+      "height": 480,
+      "split": "dev",
+      "group": "402346",
+      "license_id": 4,
+      "flickr_url": "http://farm8.staticflickr.com/7175/6700652861_4d28167e55_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            181.28,
+            249.68,
+            384.56,
+            230.32
+          ],
+          "category_id": 51,
+          "annotation_id": 713160
+        }
+      ]
+    },
+    {
+      "id": "414034",
+      "file_name": "000000414034.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000414034.jpg",
+      "width": 640,
+      "height": 480,
+      "split": "dev",
+      "group": "414034",
+      "license_id": 3,
+      "flickr_url": "http://farm4.staticflickr.com/3200/2879305925_82a9a40dd8_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            346.68,
+            228.22,
+            110.68,
+            123.76
+          ],
+          "category_id": 47,
+          "annotation_id": 1880459
+        },
+        {
+          "bbox": [
+            343.55,
+            226.75,
+            114.35,
+            124.66
+          ],
+          "category_id": 44,
+          "annotation_id": 2093148
+        }
+      ]
+    },
+    {
+      "id": "551822",
+      "file_name": "000000551822.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000551822.jpg",
+      "width": 640,
+      "height": 453,
+      "split": "dev",
+      "group": "551822",
+      "license_id": 1,
+      "flickr_url": "http://farm9.staticflickr.com/8190/8108920806_c7fff05f4e_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            114.52,
+            161.23,
+            192.55,
+            134.79
+          ],
+          "category_id": 51,
+          "annotation_id": 712411
+        },
+        {
+          "bbox": [
+            218.45,
+            23.08,
+            101.42,
+            172.61
+          ],
+          "category_id": 47,
+          "annotation_id": 1504990
+        },
+        {
+          "bbox": [
+            37.7,
+            17.89,
+            81.56,
+            108.46
+          ],
+          "category_id": 62,
+          "annotation_id": 1592128
+        },
+        {
+          "bbox": [
+            86.31,
+            23.57,
+            137.75,
+            159.02
+          ],
+          "category_id": 47,
+          "annotation_id": 1877559
+        }
+      ]
+    },
+    {
+      "id": "91779",
+      "file_name": "000000091779.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000091779.jpg",
+      "width": 640,
+      "height": 480,
+      "split": "dev",
+      "group": "91779",
+      "license_id": 5,
+      "flickr_url": "http://farm5.staticflickr.com/4063/4720316284_2b565f20a1_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            574.62,
+            75.33,
+            65.38,
+            75.8
+          ],
+          "category_id": 51,
+          "annotation_id": 1531990
+        },
+        {
+          "bbox": [
+            406.44,
+            1.25,
+            93.51,
+            97.24
+          ],
+          "category_id": 47,
+          "annotation_id": 1878931
+        },
+        {
+          "bbox": [
+            20.68,
+            0.74,
+            94.97,
+            97.14
+          ],
+          "category_id": 62,
+          "annotation_id": 1933724
+        }
+      ]
+    },
+    {
+      "id": "184384",
+      "file_name": "000000184384.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000184384.jpg",
+      "width": 640,
+      "height": 480,
+      "split": "test",
+      "group": "184384",
+      "license_id": 2,
+      "flickr_url": "http://farm3.staticflickr.com/2773/4104976058_0762616336_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            3.26,
+            3.26,
+            130.31,
+            314.93
+          ],
+          "category_id": 47,
+          "annotation_id": 674360
+        },
+        {
+          "bbox": [
+            96.0,
+            2.23,
+            119.73,
+            204.94
+          ],
+          "category_id": 47,
+          "annotation_id": 680654
+        }
+      ]
+    },
+    {
+      "id": "512929",
+      "file_name": "000000512929.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000512929.jpg",
+      "width": 612,
+      "height": 612,
+      "split": "test",
+      "group": "512929",
+      "license_id": 1,
+      "flickr_url": "http://farm6.staticflickr.com/5545/9731849395_11728c2826_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            16.5,
+            539.11,
+            104.52,
+            53.64
+          ],
+          "category_id": 51,
+          "annotation_id": 711829
+        },
+        {
+          "bbox": [
+            173.75,
+            462.89,
+            266.98,
+            142.39
+          ],
+          "category_id": 51,
+          "annotation_id": 1535030
+        }
+      ]
+    },
+    {
+      "id": "529966",
+      "file_name": "000000529966.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000529966.jpg",
+      "width": 640,
+      "height": 421,
+      "split": "test",
+      "group": "529966",
+      "license_id": 3,
+      "flickr_url": "http://farm6.staticflickr.com/5176/5496934108_b1017f0375_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            32.71,
+            129.35,
+            268.45,
+            231.49
+          ],
+          "category_id": 51,
+          "annotation_id": 713422
+        },
+        {
+          "bbox": [
+            0.0,
+            289.65,
+            28.37,
+            106.27
+          ],
+          "category_id": 51,
+          "annotation_id": 2108397
+        }
+      ]
+    },
+    {
+      "id": "468925",
+      "file_name": "000000468925.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000468925.jpg",
+      "width": 640,
+      "height": 480,
+      "split": "test",
+      "group": "468925",
+      "license_id": 6,
+      "flickr_url": "http://farm5.staticflickr.com/4145/5207229268_8f6d92514f_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            0.0,
+            1.25,
+            92.26,
+            117.19
+          ],
+          "category_id": 47,
+          "annotation_id": 1877452
+        }
+      ]
+    },
+    {
+      "id": "335954",
+      "file_name": "000000335954.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000335954.jpg",
+      "width": 612,
+      "height": 612,
+      "split": "test",
+      "group": "335954",
+      "license_id": 6,
+      "flickr_url": "http://farm6.staticflickr.com/5460/9899305603_060a35fe3e_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            273.54,
+            152.08,
+            338.46,
+            381.48
+          ],
+          "category_id": 51,
+          "annotation_id": 712523
+        },
+        {
+          "bbox": [
+            0.0,
+            126.09,
+            282.04,
+            418.96
+          ],
+          "category_id": 51,
+          "annotation_id": 1038857
+        }
+      ]
+    },
+    {
+      "id": "484978",
+      "file_name": "000000484978.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000484978.jpg",
+      "width": 640,
+      "height": 491,
+      "split": "test",
+      "group": "484978",
+      "license_id": 3,
+      "flickr_url": "http://farm8.staticflickr.com/7391/10125629756_9aac7d103b_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            389.33,
+            362.27,
+            37.71,
+            49.75
+          ],
+          "category_id": 47,
+          "annotation_id": 680509
+        },
+        {
+          "bbox": [
+            434.57,
+            318.65,
+            92.72,
+            86.31
+          ],
+          "category_id": 47,
+          "annotation_id": 681647
+        },
+        {
+          "bbox": [
+            406.78,
+            262.17,
+            39.22,
+            61.16
+          ],
+          "category_id": 47,
+          "annotation_id": 1506500
+        },
+        {
+          "bbox": [
+            560.36,
+            287.14,
+            52.46,
+            73.6
+          ],
+          "category_id": 47,
+          "annotation_id": 1507380
+        },
+        {
+          "bbox": [
+            511.45,
+            340.42,
+            46.97,
+            55.16
+          ],
+          "category_id": 47,
+          "annotation_id": 1508751
+        },
+        {
+          "bbox": [
+            113.92,
+            278.78,
+            68.89,
+            54.16
+          ],
+          "category_id": 47,
+          "annotation_id": 1509795
+        },
+        {
+          "bbox": [
+            84.59,
+            309.39,
+            36.76,
+            32.32
+          ],
+          "category_id": 47,
+          "annotation_id": 1512585
+        },
+        {
+          "bbox": [
+            613.18,
+            294.95,
+            26.82,
+            61.43
+          ],
+          "category_id": 47,
+          "annotation_id": 1515005
+        },
+        {
+          "bbox": [
+            525.62,
+            298.99,
+            35.54,
+            42.44
+          ],
+          "category_id": 51,
+          "annotation_id": 1538410
+        },
+        {
+          "bbox": [
+            235.5,
+            293.28,
+            47.52,
+            57.62
+          ],
+          "category_id": 47,
+          "annotation_id": 1881648
+        },
+        {
+          "bbox": [
+            525.65,
+            297.68,
+            36.49,
+            45.19
+          ],
+          "category_id": 47,
+          "annotation_id": 1886211
+        },
+        {
+          "bbox": [
+            404.09,
+            327.94,
+            38.6,
+            51.74
+          ],
+          "category_id": 47,
+          "annotation_id": 1886972
+        }
+      ]
+    },
+    {
+      "id": "462576",
+      "file_name": "000000462576.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000462576.jpg",
+      "width": 640,
+      "height": 480,
+      "split": "test",
+      "group": "462576",
+      "license_id": 3,
+      "flickr_url": "http://farm8.staticflickr.com/7439/9534894738_440d2403cd_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            465.98,
+            1.98,
+            159.64,
+            204.94
+          ],
+          "category_id": 47,
+          "annotation_id": 1505392
+        },
+        {
+          "bbox": [
+            57.17,
+            39.15,
+            118.44,
+            44.09
+          ],
+          "category_id": 51,
+          "annotation_id": 1531714
+        },
+        {
+          "bbox": [
+            143.57,
+            13.72,
+            38.14,
+            35.78
+          ],
+          "category_id": 47,
+          "annotation_id": 1878039
+        },
+        {
+          "bbox": [
+            75.13,
+            3.54,
+            23.09,
+            42.52
+          ],
+          "category_id": 47,
+          "annotation_id": 1886686
+        },
+        {
+          "bbox": [
+            82.4,
+            21.56,
+            31.95,
+            37.22
+          ],
+          "category_id": 47,
+          "annotation_id": 1887046
+        }
+      ]
+    },
+    {
+      "id": "387098",
+      "file_name": "000000387098.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000387098.jpg",
+      "width": 640,
+      "height": 480,
+      "split": "test",
+      "group": "387098",
+      "license_id": 1,
+      "flickr_url": "http://farm4.staticflickr.com/3083/3138265194_b2d0f11ed0_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            221.35,
+            174.66,
+            44.12,
+            136.76
+          ],
+          "category_id": 44,
+          "annotation_id": 80594
+        },
+        {
+          "bbox": [
+            111.47,
+            235.71,
+            50.51,
+            51.54
+          ],
+          "category_id": 47,
+          "annotation_id": 668805
+        },
+        {
+          "bbox": [
+            222.6,
+            280.63,
+            59.16,
+            63.85
+          ],
+          "category_id": 47,
+          "annotation_id": 679688
+        },
+        {
+          "bbox": [
+            42.49,
+            208.46,
+            72.64,
+            70.01
+          ],
+          "category_id": 47,
+          "annotation_id": 1878854
+        },
+        {
+          "bbox": [
+            0.0,
+            317.54,
+            63.6,
+            12.59
+          ],
+          "category_id": 84,
+          "annotation_id": 1983947
+        },
+        {
+          "bbox": [
+            0.35,
+            229.72,
+            54.91,
+            13.61
+          ],
+          "category_id": 84,
+          "annotation_id": 1984728
+        },
+        {
+          "bbox": [
+            3.16,
+            289.02,
+            57.99,
+            10.63
+          ],
+          "category_id": 84,
+          "annotation_id": 1987369
+        },
+        {
+          "bbox": [
+            554.89,
+            365.01,
+            70.59,
+            78.83
+          ],
+          "category_id": 84,
+          "annotation_id": 1987561
+        },
+        {
+          "bbox": [
+            0.67,
+            249.9,
+            51.6,
+            12.58
+          ],
+          "category_id": 84,
+          "annotation_id": 1988888
+        },
+        {
+          "bbox": [
+            0.0,
+            241.05,
+            49.28,
+            10.82
+          ],
+          "category_id": 84,
+          "annotation_id": 1989537
+        },
+        {
+          "bbox": [
+            0.0,
+            144.91,
+            40.24,
+            6.76
+          ],
+          "category_id": 84,
+          "annotation_id": 1989752
+        },
+        {
+          "bbox": [
+            0.0,
+            106.86,
+            37.83,
+            28.68
+          ],
+          "category_id": 84,
+          "annotation_id": 1989907
+        },
+        {
+          "bbox": [
+            0.0,
+            88.09,
+            36.32,
+            8.74
+          ],
+          "category_id": 84,
+          "annotation_id": 1989958
+        }
+      ]
+    },
+    {
+      "id": "492878",
+      "file_name": "000000492878.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000492878.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "test",
+      "group": "492878",
+      "license_id": 1,
+      "flickr_url": "http://farm5.staticflickr.com/4074/4853968972_dfb8b372ed_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            53.54,
+            337.71,
+            67.7,
+            116.82
+          ],
+          "category_id": 44,
+          "annotation_id": 85826
+        },
+        {
+          "bbox": [
+            188.53,
+            244.23,
+            95.68,
+            153.09
+          ],
+          "category_id": 47,
+          "annotation_id": 1507874
+        },
+        {
+          "bbox": [
+            24.43,
+            155.62,
+            135.22,
+            222.23
+          ],
+          "category_id": 47,
+          "annotation_id": 1512961
+        },
+        {
+          "bbox": [
+            53.06,
+            77.26,
+            129.32,
+            205.6
+          ],
+          "category_id": 47,
+          "annotation_id": 1885682
+        },
+        {
+          "bbox": [
+            232.2,
+            132.65,
+            69.52,
+            130.63
+          ],
+          "category_id": 47,
+          "annotation_id": 1886354
+        }
+      ]
+    },
+    {
+      "id": "351609",
+      "file_name": "000000351609.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000351609.jpg",
+      "width": 500,
+      "height": 333,
+      "split": "test",
+      "group": "351609",
+      "license_id": 3,
+      "flickr_url": "http://farm3.staticflickr.com/2086/2325589657_046aa96aa8_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            0.75,
+            65.97,
+            498.95,
+            267.03
+          ],
+          "category_id": 51,
+          "annotation_id": 709733
+        },
+        {
+          "bbox": [
+            388.36,
+            0.0,
+            111.64,
+            200.66
+          ],
+          "category_id": 47,
+          "annotation_id": 1877899
+        }
+      ]
+    },
+    {
+      "id": "194724",
+      "file_name": "000000194724.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000194724.jpg",
+      "width": 640,
+      "height": 480,
+      "split": "test",
+      "group": "194724",
+      "license_id": 4,
+      "flickr_url": "http://farm7.staticflickr.com/6155/6165978029_81ac06fbe3_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            418.29,
+            0.3,
+            102.84,
+            258.31
+          ],
+          "category_id": 44,
+          "annotation_id": 79620
+        },
+        {
+          "bbox": [
+            511.28,
+            42.07,
+            127.28,
+            100.31
+          ],
+          "category_id": 62,
+          "annotation_id": 374467
+        },
+        {
+          "bbox": [
+            0.0,
+            96.76,
+            35.68,
+            112.43
+          ],
+          "category_id": 62,
+          "annotation_id": 383785
+        },
+        {
+          "bbox": [
+            514.77,
+            133.02,
+            94.48,
+            129.26
+          ],
+          "category_id": 47,
+          "annotation_id": 671514
+        },
+        {
+          "bbox": [
+            80.9,
+            139.15,
+            349.48,
+            103.55
+          ],
+          "category_id": 84,
+          "annotation_id": 1137084
+        },
+        {
+          "bbox": [
+            190.87,
+            2.26,
+            23.72,
+            49.69
+          ],
+          "category_id": 44,
+          "annotation_id": 1484835
+        },
+        {
+          "bbox": [
+            170.94,
+            0.0,
+            21.93,
+            54.43
+          ],
+          "category_id": 44,
+          "annotation_id": 1867268
+        },
+        {
+          "bbox": [
+            261.95,
+            0.0,
+            18.38,
+            52.86
+          ],
+          "category_id": 44,
+          "annotation_id": 1871048
+        },
+        {
+          "bbox": [
+            280.45,
+            0.05,
+            19.13,
+            53.75
+          ],
+          "category_id": 44,
+          "annotation_id": 1871681
+        },
+        {
+          "bbox": [
+            299.87,
+            0.0,
+            20.84,
+            52.12
+          ],
+          "category_id": 44,
+          "annotation_id": 1871711
+        },
+        {
+          "bbox": [
+            209.45,
+            1.25,
+            23.69,
+            49.87
+          ],
+          "category_id": 44,
+          "annotation_id": 1872222
+        },
+        {
+          "bbox": [
+            339.81,
+            2.76,
+            17.78,
+            48.59
+          ],
+          "category_id": 44,
+          "annotation_id": 2213329
+        }
+      ]
+    },
+    {
+      "id": "2149",
+      "file_name": "000000002149.jpg",
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000002149.jpg",
+      "width": 640,
+      "height": 427,
+      "split": "test",
+      "group": "2149",
+      "license_id": 5,
+      "flickr_url": "http://farm4.staticflickr.com/3598/3330055100_17454411a4_z.jpg",
+      "annotations": [
+        {
+          "bbox": [
+            0.0,
+            71.01,
+            639.06,
+            350.23
+          ],
+          "category_id": 51,
+          "annotation_id": 709513
+        }
+      ]
+    }
+  ]
+}

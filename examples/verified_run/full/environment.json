@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "utc": "2026-10-05T14:45:16.251105+00:00",
+  "device": "cpu",
+  "elapsed_seconds": 259.53941929999996,
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "scikit-image": "0.26.0",
+  "matplotlib": "3.11.2",
+  "Pillow": "12.3.0",
+  "torch": "2.14.1",
+  "torchvision": "0.29.1"
+}

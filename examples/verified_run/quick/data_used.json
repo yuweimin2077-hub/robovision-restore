@@ -1,0 +1,14 @@
+{
+  "name": "COCO household-object pilot (not robot data)",
+  "dev_ids": [
+    "102707",
+    "260105"
+  ],
+  "test_ids": [
+    "184384",
+    "512929",
+    "529966",
+    "468925"
+  ],
+  "manifest_sha256": "cf7ddc16b37e9e68d392e42447fe754e805c4754cfada2e4bdf548fa62b12179"
+}

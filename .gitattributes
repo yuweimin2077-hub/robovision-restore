@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.zip binary
+# Preserve the byte-level manifest hash recorded in experiment provenance.
+data/coco_household18.json -text whitespace=cr-at-eol

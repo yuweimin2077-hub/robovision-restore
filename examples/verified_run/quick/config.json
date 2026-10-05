@@ -1,0 +1,30 @@
+{
+  "manifest": "data/coco_household18.json",
+  "output": "runs/colab_quick",
+  "cache": "data/cache/images",
+  "max_side": 320,
+  "blur_lengths": [
+    7,
+    17
+  ],
+  "angle": 25.0,
+  "sigma": 0.01,
+  "seed": 2026,
+  "iterations": 60,
+  "rho": 0.15,
+  "balances": [
+    0.001,
+    0.003,
+    0.01
+  ],
+  "lambdas": [
+    0.001,
+    0.003,
+    0.01
+  ],
+  "score_threshold": 0.3,
+  "iou_threshold": 0.5,
+  "quick": true,
+  "detection": true,
+  "device": "auto"
+}
